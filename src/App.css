@@ -1,0 +1,41 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.character-search {
+  margin-bottom: 20px;
+}
+
+.character-search input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.character-search button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 150px;
+  text-align: center;
+}
+
+.character-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
